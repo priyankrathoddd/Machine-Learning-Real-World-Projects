@@ -1,0 +1,35 @@
+About Dataset
+Heart Disease Dataset
+General Information
+Donated On 30th June 1988
+Sources 4 databases (Cleveland, Hungary, Switzerland, VA Long Beach)
+Characteristics
+Type Multivariate
+Domain Health and Medicine
+Tasks Classification
+Features Categorical, Integer, Real
+Instances 303
+Features Used 13
+Dataset Description
+This dataset comprises 76 attributes, but most published studies use a subset of 14. Among these, the Cleveland database is the most utilized by ML researchers. The target field (num) indicates the presence of heart disease, with values ranging from 0 (no disease) to 4 (presence of disease). Research focuses on distinguishing between the presence (values 1, 2, 3, 4) and absence (value 0) of heart disease. Patient names and social security numbers have been anonymized.
+
+Attributes in the Dataset
+Age Age of the patient (Integer, years)
+Sex Gender (Categorical; 1 = male, 0 = female)
+CP Chest pain type (Categorical)
+
+Trestbps Resting blood pressure (Integer, mm Hg)
+
+Restecg Resting electrocardiographic results (Categorical)
+
+Thalach Maximum heart rate achieved (Integer)
+
+Slope Slope of the peak exercise ST segment (Categorical)
+
+Ca Number of major vessels colored by fluoroscopy (Integer; 0-3)
+
+Num Diagnosis of heart disease (target) (Integer)
+0  50% diameter narrowing
+1  50% diameter narrowing
+Missing Values
+Yes Data contain missing values
